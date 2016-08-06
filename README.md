@@ -5,7 +5,9 @@ This is a Mini Java Shell (Bash) which will execute the commands (Linux/UNIX) sp
 3.A timeout (also an integer from 1 to 9) specifying the maximum duration of each process in seconds (reset between processes if running sequentially).If a process takes longer than the timeout, it is terminated. A timeout value of zero specifies no timeout.
 I have used Cygwin to compile and run this application</br>
 <h2>How to install Cygwin and set java path in Cyqwin</h2>
-emacs .bash_profile
+Open the emacs editor</br>
+emacs .bash_profile</br>
+Add below lines in the .bash_profile file
 <br>export JAVA_HOME=/cygdrive/c/Program\ Files/Java/jdkversion/
 <br>export PATH=$PATH:$EMACS_HOME/bin:$JAVA_HOME/bin
 <br> save the file
